@@ -37,7 +37,7 @@ function shopping() {
 
     if (chosenItem !== undefined) {
         cart.push(chosenItem);
-        alert('✅ ' + chosenItem.type + ' added to the cart.🤑');
+        alert('✅ ' + chosenItem.type + ' added to the cart.🛒 🤑');
 
         let answer = confirm("Do you wish to add another item to your cart? 🛒");
         if (answer === true) {
