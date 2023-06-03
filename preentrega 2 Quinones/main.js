@@ -8,3 +8,9 @@ const items = [{ image: '', code: 00111, type: 'pineapple cush', cost: 50 },
 { image: '', code: 00420, type: 'hood cush', cost: 90 },
 ];
 
+// this function is to find or search for items.
+function searchItems(items) {
+    let results = items.find((items) => items.code === parseInt(code));
+    return results
+}
+
