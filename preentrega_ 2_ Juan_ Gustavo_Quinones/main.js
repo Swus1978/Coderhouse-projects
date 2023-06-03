@@ -37,16 +37,16 @@ function shopping() {
 
     if (chosenItem !== undefined) {
         cart.push(chosenItem);
-        alert('✅ ' + chosenItem.type + ' added to the cart.');
+        alert('✅ ' + chosenItem.type + ' added to the cart.🤑');
 
-        let answer = confirm("Do you wish to add another item to your cart?");
+        let answer = confirm("Do you wish to add another item to your cart? 🛒");
         if (answer === true) {
             shopping();
         } else {
             checkoutCart();
         }
     } else {
-        alert('⛔️ Error wrong code entered. Refresh page to start all over.');
+        alert('⛔️ Error wrong code entered. \n⚠️  Refresh page to start all over.');
     }
 }
 // callout function
