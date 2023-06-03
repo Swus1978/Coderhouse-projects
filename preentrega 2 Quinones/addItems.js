@@ -18,4 +18,4 @@ function buy() {
     
 }
 
-buy();
+buy()

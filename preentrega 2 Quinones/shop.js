@@ -5,8 +5,8 @@ class shop {
         this.cart = shoppingCart;
     }                                        
     obtainSubTotal() {
-        if (this.cart.length > 0) { 
-            return this.cart.reduce((acc, items) => acc + items.price, 0);
+        if (this.cart.length>0){ 
+            return this.cart.reduce((acc, items)=> acc + items.price,0);
         }
     }
 }
