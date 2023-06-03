@@ -3,7 +3,7 @@ class Shop {
     constructor(shoppingCart) {
         this.cart = shoppingCart;
     }
-
+// This is to get the sub total for the cart.
     obtainSubTotal() {
         if (this.cart.length > 0) {
             return this.cart.reduce((acc, item) => acc + item.price, 0);
@@ -34,7 +34,7 @@ function checkoutCart() {
 function shopping() {
     let codes = prompt("Enter your item code: (00111, 00666, 00211, 00420");
     let chosenItem = findItems(codes);
-
+// This is the selecting items to see if is available or not.
     if (chosenItem !== undefined) {
         cart.push(chosenItem);
         alert('✅ ' + chosenItem.type + ' added to the cart.🛒 🤑');
