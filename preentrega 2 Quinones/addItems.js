@@ -1,14 +1,14 @@
 //  adding items to the cart list entering code for items wanted to be added to cart.
 
 function buy() {
-    let code = prompt('Enter your code of purchase to purchase. (00111, 00666, 00211, 00420)');
-    let chosenItem = searchItems(code);
-    if (chosenItem !== undefined) { 
-        cart.push(chosenItem);
-        alert(chosenItem + 'Been added to cart' + '✅');
+    let codes = prompt('Enter your code of purchase to purchase. (00111, 00666, 00211, 00420)');
+    let chosenItems = findItems(codes)
+    if (chosenItems !== undefined) { 
+        cart.push(chosenItems);
+        alert(chosenItems + 'Been added to cart' + '✅');
         let answer = confirm('Would you like to purchase an other item?');
         if (answer === true) {
-            buy();
+            buy()
         } else {
             checkoutCart()
         }
