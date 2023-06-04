@@ -32,7 +32,7 @@ function checkoutCart() {
 }
 // My questioning cart to put in request the order .
 function shopping() {
-    let codes = prompt("Enter your item code: (00111, 00666, 00211, 00420");
+    let codes = prompt("Enter your item code: ( 00666, 00211, 00420");
     let chosenItem = findItems(codes);
 // This is the selecting items to see if is available or not.
     if (chosenItem !== undefined) {
