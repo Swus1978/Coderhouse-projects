@@ -1,0 +1,25 @@
+Plan a security audit
+Interactive Transcript - Enable basic transcript mode by pressing the escape key
+You may navigate through the transcript using tab. To save a note for a section of text press CTRL + S. To expand your selection you may use CTRL + arrow key. You may contract your selection using shift + CTRL + arrow key. For screen readers that are incompatible with using arrow keys for shortcuts, you can replace them with the H J K L keys. Some screen readers may require using CTRL in conjunction with the alt key
+Play video starting at :: and follow transcript0:00
+Now that we've covered different frameworks, controls, security principles, and compliance regulations, the question is: How do they all work together?
+Play video starting at ::11 and follow transcript0:11
+The answer to that question is by conducting security audits. A security audit is a review of an organization's security controls, policies, and procedures against a set of expectations.
+Play video starting at ::25 and follow transcript0:25
+There are two main types of security audits: external and internal. We'll focus on internal security audits because those are the types of audits that entry-level analysts might be asked to contribute to.
+Play video starting at ::40 and follow transcript0:40
+An internal security audit is typically conducted by a team of people that might include an organization's compliance officer, security manager, and other security team members. Internal security audits are used to help improve an organization's security posture and help organizations avoid fines from governing agencies due to a lack of compliance. Internal security audits help security teams identify organizational risk, assess controls, and correct compliance issues.
+Play video starting at :1:14 and follow transcript1:14
+Now that we've discussed the purposes of internal audits, let's cover some common elements of internal audits. These include establishing the scope and goals of the audit, conducting a risk assessment of the organization's assets, completing a controls assessment, assessing compliance, and communicating results to stakeholders.
+Play video starting at :1:37 and follow transcript1:37
+In this video, we'll cover the first two elements, which are a part of the audit planning process: establishing the scope and goals, then completing a risk assessment.
+Play video starting at :1:49 and follow transcript1:49
+Scope refers to the specific criteria of an internal security audit. Scope requires organizations to identify people, assets, policies, procedures, and technologies that might impact an organization's security posture. Goals are an outline of the organization's security objectives, or what they want to achieve in order to improve their security posture.
+Play video starting at :2:15 and follow transcript2:15
+Although more senior-level security team members and other stakeholders usually establish the scope and goals of the audit, entry-level analysts might be asked to review and understand the scope and goals in order to complete other elements of the audit.
+Play video starting at :2:31 and follow transcript2:31
+As an example, the scope of this audit involves assessing user permissions; identifying existing controls, policies, and procedures; and accounting for the technology currently in use by the organization. The goals outlined include implementing core functions of frameworks, like the NIST CSF; establishing policies and procedures to ensure compliance; and strengthening system controls.
+Play video starting at :3:2 and follow transcript3:02
+The next element is conducting a risk assessment, which is focused on identifying potential threats, risks, and vulnerabilities. This helps organizations consider what security measures should be implemented and monitored to ensure the safety of assets. Similar to establishing the scope and goals, a risk assessment is oftentimes completed by managers or other stakeholders. However, you might be asked to analyze details provided in the risk assessment to consider what types of controls and compliance regulations need to be in place to help improve the organization's security posture.
+Play video starting at :3:44 and follow transcript3:44
+For example, this risk assessment highlights that there are inadequate controls, processes, and procedures in place to protect the organization's assets. Specifically, there is a lack of proper management of physical and digital assets, including employee equipment. The equipment used to store data is not properly secured. And access to private information stored in the organization's internal network likely needs more robust controls in place. Now that we've discussed the initial planning elements of an internal security audit, coming up, we'll focus on the last three elements.
